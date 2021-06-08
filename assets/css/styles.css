@@ -22,13 +22,15 @@ a {
   }
 
 .debug{
-  outline:10px solid black ;
+  /* outline:10px solid black ; */
+  border:10px solid green;
 }
 
 
 .main {
   /* border:5px solid yellow; */
   background: blue;
+  position:relative;
 }
 
 .wrapper {
@@ -43,6 +45,7 @@ a {
 .main-content {
   /* border:3px solid purple; */
   padding:20px;
+
 }
 
 .hero-one{
@@ -58,8 +61,10 @@ a {
   /* display:inline-block; */
 
    position:absolute;
-   left:12%;
-   /* z-index:4; */
+   /* top:0; */
+   left:2%;
+   top:2%;
+      /* z-index:4; */
    /*top left bottom right z-index
    top:50px; */
   /* border:15px solid purple; */
