@@ -81,11 +81,8 @@ a {
 .main-content {
   /* border:3px solid purple; */
   padding:20px;
+  width:auto;
 }
-
-
-
-
 
  .title-one{
   color:red;
@@ -113,4 +110,27 @@ h1::after{
   content:'-'
 }
 
-
+.slider{
+  border:1px solid red;
+  padding:0;
+  margin:0;
+  width:auto;
+}
+.slider-container{
+  border:1px solid black;
+  /* block-size: 100px; */
+  display:block;
+  overflow:auto;
+  scroll-behavior: smooth;
+  white-space:nowrap;
+  padding:0;
+}
+.video{
+  margin:0;
+  border:1px solid yellow;
+  display:inline-block;
+  width:100%;
+  height:auto;
+  aspect-ratio: 16/9;
+  padding:0;
+}
